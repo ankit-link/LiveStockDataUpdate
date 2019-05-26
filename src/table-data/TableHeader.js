@@ -115,8 +115,8 @@ class TableHeader extends React.Component {
       }
 
   render() {
-    return <table>
-                <th>ticker</th>
+    return <table className="table table-striped">
+                <th>Ticker</th>
                 <th>Price</th>
                 <TableContent data={this.state.data}/>
             </table>;
