@@ -1,12 +1,48 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Ticker from './table-data/Ticker';
-import * as serviceWorker from './serviceWorker';
+import Flexi from './Flexi';
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import formReducer from './reducers/formreducer'
+import FlexiContainer from './containers/formcontainer'
+const flexiconfig =  {
+                    items: [
 
-ReactDOM.render(<Ticker />, document.getElementById('root'));
+                        {
+                            name: "person_name",
+                            label: "firstname",
+                            type: "TextField"
+                        },
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+                        {
+                            name: "person_lasname",
+                            label: "lastname",
+                            type: "TextField"
+                        },
+
+                        {
+                            name: "states",
+                            label: "state",
+                            type: "DropDown",
+                            values: ["Maharashtra", "Kerala", "Tamil Nadu"]
+                        },
+
+                        {
+                            name: "Gender",
+                            label: "gender",
+                            type: "DropDown",
+                            values: ["Male","female","other"]
+                        }
+                    ]
+};
+
+const store = createStore(formReducer)
+
+window.store = store;
+
+ReactDOM.render(
+<Provider store={store}>
+    <FlexiContainer config={flexiconfig}/>
+  </Provider>, document.getElementById('root'));
+

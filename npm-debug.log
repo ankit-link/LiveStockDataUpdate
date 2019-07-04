@@ -1,0 +1,507 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'i', '--save', 'react-redux' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json babel-plugin-named-asset-import@0.3.2 No README data
+5 warn package.json camel-case@3.0.0 No README data
+6 warn package.json copy-descriptor@0.1.1 No README data
+7 warn package.json dom-serializer@0.1.1 No README data
+8 warn package.json eslint-module-utils@2.4.0 No README data
+9 warn package.json estraverse@4.2.0 No README data
+10 warn package.json get-value@2.0.6 No README data
+11 warn package.json jest-diff@24.8.0 No description
+12 warn package.json jest-diff@24.8.0 No README data
+13 warn package.json jest-environment-jsdom@24.8.0 No description
+14 warn package.json jest-environment-jsdom@24.8.0 No README data
+15 warn package.json jest-environment-node@24.8.0 No description
+16 warn package.json jest-environment-node@24.8.0 No README data
+17 warn package.json jest-get-type@24.8.0 No README data
+18 warn package.json jest-haste-map@24.8.0 No description
+19 warn package.json jest-haste-map@24.8.0 No README data
+20 warn package.json jest-config@24.8.0 No description
+21 warn package.json jest-config@24.8.0 No README data
+22 warn package.json jest-jasmine2@24.8.0 No description
+23 warn package.json jest-jasmine2@24.8.0 No README data
+24 warn package.json jest-message-util@24.8.0 No description
+25 warn package.json jest-message-util@24.8.0 No README data
+26 warn package.json jest-regex-util@24.3.0 No description
+27 warn package.json jest-regex-util@24.3.0 No README data
+28 warn package.json jest-resolve@24.7.1 No description
+29 warn package.json jest-resolve@24.7.1 No README data
+30 warn package.json jest-resolve-dependencies@24.8.0 No description
+31 warn package.json jest-resolve-dependencies@24.8.0 No README data
+32 warn package.json jest-runner@24.8.0 No description
+33 warn package.json jest-runner@24.8.0 No README data
+34 warn package.json jest-runtime@24.8.0 No description
+35 warn package.json jest-runtime@24.8.0 No README data
+36 warn package.json jest-snapshot@24.8.0 No description
+37 warn package.json jest-snapshot@24.8.0 No README data
+38 warn package.json jest-util@24.8.0 No description
+39 warn package.json jest-util@24.8.0 No README data
+40 warn package.json jest-watcher@24.8.0 No README data
+41 warn package.json jest-matcher-utils@24.8.0 No README data
+42 warn package.json loader-fs-cache@1.0.2 No repository field.
+43 warn package.json loader-fs-cache@1.0.2 No README data
+44 warn package.json mamacro@0.0.3 No description
+45 warn package.json mamacro@0.0.3 No repository field.
+46 warn package.json mamacro@0.0.3 No README data
+47 warn package.json object-copy@0.1.0 No README data
+48 warn package.json path-is-inside@1.0.2 No README data
+49 warn package.json setimmediate@1.0.5 No README data
+50 warn package.json static-extend@0.1.2 No README data
+51 warn package.json dotenv-expand@4.2.0 No repository field.
+52 warn package.json indexof@0.0.1 No repository field.
+53 verbose readDependencies using package.json deps
+54 verbose cache add [ 'react-redux', null ]
+55 verbose cache add name=undefined spec="react-redux" args=["react-redux",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'react-redux',
+56 verbose parsed url   path: 'react-redux',
+56 verbose parsed url   href: 'react-redux' }
+57 silly lockFile 9ff87784-react-redux react-redux
+58 verbose lock react-redux /home/ankit/.npm/9ff87784-react-redux.lock
+59 silly lockFile 9ff87784-react-redux react-redux
+60 silly lockFile 9ff87784-react-redux react-redux
+61 verbose addNamed [ 'react-redux', '' ]
+62 verbose addNamed [ null, '*' ]
+63 silly lockFile 4aec1de5-react-redux react-redux@
+64 verbose lock react-redux@ /home/ankit/.npm/4aec1de5-react-redux.lock
+65 silly addNameRange { name: 'react-redux', range: '*', hasData: false }
+66 verbose url raw react-redux
+67 verbose url resolving [ 'https://registry.npmjs.org/', './react-redux' ]
+68 verbose url resolved https://registry.npmjs.org/react-redux
+69 info trying registry request attempt 1 at 23:20:00
+70 verbose etag "4a5129fb9b9753e67e4080ec1d8ffcb9"
+71 http GET https://registry.npmjs.org/react-redux
+72 http 304 https://registry.npmjs.org/react-redux
+73 silly registry.get cb [ 304,
+73 silly registry.get   { date: 'Sat, 29 Jun 2019 17:50:01 GMT',
+73 silly registry.get     connection: 'keep-alive',
+73 silly registry.get     'set-cookie': [ '__cfduid=db5a4deb76b16cf7ed9aa85f815936b291561830601; expires=Sun, 28-Jun-20 17:50:01 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+73 silly registry.get     'cf-cache-status': 'HIT',
+73 silly registry.get     'cache-control': 'max-age=300',
+73 silly registry.get     'cf-ray': '4ee9bd888c19d9dc-SIN',
+73 silly registry.get     age: '1282',
+73 silly registry.get     etag: '"4a5129fb9b9753e67e4080ec1d8ffcb9"',
+73 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly registry.get     'last-modified': 'Tue, 11 Jun 2019 02:11:07 GMT',
+73 silly registry.get     vary: 'accept-encoding, accept',
+73 silly registry.get     'x-amz-meta-rev': '309-e9c3e4e560bec09ed42b5945e9c77d19',
+73 silly registry.get     server: 'cloudflare' } ]
+74 verbose etag react-redux from cache
+75 silly addNameRange number 2 { name: 'react-redux', range: '*', hasData: true }
+76 silly addNameRange versions [ 'react-redux',
+76 silly addNameRange   [ '0.1.0',
+76 silly addNameRange     '1.0.0-alpha',
+76 silly addNameRange     '0.2.0',
+76 silly addNameRange     '0.2.1',
+76 silly addNameRange     '0.2.2',
+76 silly addNameRange     '0.3.0',
+76 silly addNameRange     '0.4.0',
+76 silly addNameRange     '0.5.0',
+76 silly addNameRange     '0.5.1',
+76 silly addNameRange     '0.5.2',
+76 silly addNameRange     '0.5.3',
+76 silly addNameRange     '0.6.0',
+76 silly addNameRange     '0.7.0',
+76 silly addNameRange     '0.8.0',
+76 silly addNameRange     '0.8.1',
+76 silly addNameRange     '0.8.2',
+76 silly addNameRange     '0.9.0',
+76 silly addNameRange     '1.0.0',
+76 silly addNameRange     '1.0.1',
+76 silly addNameRange     '2.0.0',
+76 silly addNameRange     '2.1.0',
+76 silly addNameRange     '2.1.1',
+76 silly addNameRange     '2.1.2',
+76 silly addNameRange     '3.0.0-alpha',
+76 silly addNameRange     '3.0.0',
+76 silly addNameRange     '3.0.1',
+76 silly addNameRange     '3.1.0',
+76 silly addNameRange     '4.0.0',
+76 silly addNameRange     '3.1.1',
+76 silly addNameRange     '4.0.1',
+76 silly addNameRange     '3.1.2',
+76 silly addNameRange     '4.0.2',
+76 silly addNameRange     '4.0.3',
+76 silly addNameRange     '4.0.4',
+76 silly addNameRange     '4.0.5',
+76 silly addNameRange     '4.0.6',
+76 silly addNameRange     '4.1.0',
+76 silly addNameRange     '4.1.1',
+76 silly addNameRange     '4.1.2',
+76 silly addNameRange     '4.2.0',
+76 silly addNameRange     '4.2.1',
+76 silly addNameRange     '4.3.0',
+76 silly addNameRange     '4.4.0',
+76 silly addNameRange     '4.4.1',
+76 silly addNameRange     '4.4.2',
+76 silly addNameRange     '4.4.3',
+76 silly addNameRange     '4.4.4',
+76 silly addNameRange     '4.4.5',
+76 silly addNameRange     '5.0.0-alpha.1',
+76 silly addNameRange     '5.0.0-beta.1',
+76 silly addNameRange     '5.0.0-beta.2',
+76 silly addNameRange     '5.0.0-beta.3',
+76 silly addNameRange     '4.4.6',
+76 silly addNameRange     '5.0.0-rc.1',
+76 silly addNameRange     '5.0.0-rc.2',
+76 silly addNameRange     '5.0.0',
+76 silly addNameRange     '5.0.1',
+76 silly addNameRange     '5.0.2',
+76 silly addNameRange     '5.0.3',
+76 silly addNameRange     '4.4.7',
+76 silly addNameRange     '5.0.4',
+76 silly addNameRange     '4.4.8',
+76 silly addNameRange     '5.0.5',
+76 silly addNameRange     '5.0.6',
+76 silly addNameRange     '5.0.7',
+76 silly addNameRange     '4.4.9',
+76 silly addNameRange     '5.1.0-test.1',
+76 silly addNameRange     '6.0.0-alpha.ede6245',
+76 silly addNameRange     '6.0.0-alpha.9210282',
+76 silly addNameRange     '6.0.0-alpha.2a2f108',
+76 silly addNameRange     '5.1.0',
+76 silly addNameRange     '6.0.0-beta.1',
+76 silly addNameRange     '6.0.0-beta.2',
+76 silly addNameRange     '5.1.1',
+76 silly addNameRange     '6.0.0-beta.3',
+76 silly addNameRange     '6.0.0',
+76 silly addNameRange     '6.0.1',
+76 silly addNameRange     '4.4.10',
+76 silly addNameRange     '7.0.0-beta.0',
+76 silly addNameRange     '7.0.0-beta.1',
+76 silly addNameRange     '7.0.0',
+76 silly addNameRange     '7.0.1',
+76 silly addNameRange     '7.0.2',
+76 silly addNameRange     '7.1.0-alpha.0',
+76 silly addNameRange     '7.1.0-alpha.1',
+76 silly addNameRange     '7.0.3',
+76 silly addNameRange     '7.1.0-alpha.2',
+76 silly addNameRange     '7.1.0-alpha.3',
+76 silly addNameRange     '7.1.0-alpha.4',
+76 silly addNameRange     '7.1.0-alpha.5',
+76 silly addNameRange     '7.1.0-rc.1',
+76 silly addNameRange     '7.1.0' ] ]
+77 verbose addNamed [ 'react-redux', '7.1.0' ]
+78 verbose addNamed [ '7.1.0', '7.1.0' ]
+79 silly lockFile a80a23e6-react-redux-7-1-0 react-redux@7.1.0
+80 verbose lock react-redux@7.1.0 /home/ankit/.npm/a80a23e6-react-redux-7-1-0.lock
+81 silly lockFile a80a23e6-react-redux-7-1-0 react-redux@7.1.0
+82 silly lockFile a80a23e6-react-redux-7-1-0 react-redux@7.1.0
+83 silly lockFile 4aec1de5-react-redux react-redux@
+84 silly lockFile 4aec1de5-react-redux react-redux@
+85 silly resolved [ { name: 'react-redux',
+85 silly resolved     version: '7.1.0',
+85 silly resolved     description: 'Official React bindings for Redux',
+85 silly resolved     keywords: [ 'react', 'reactjs', 'redux' ],
+85 silly resolved     license: 'MIT',
+85 silly resolved     author:
+85 silly resolved      { name: 'Dan Abramov',
+85 silly resolved        email: 'dan.abramov@me.com',
+85 silly resolved        url: 'https://github.com/gaearon' },
+85 silly resolved     homepage: 'https://github.com/reduxjs/react-redux',
+85 silly resolved     repository: { type: 'git', url: 'github:reduxjs/react-redux' },
+85 silly resolved     bugs: { url: 'https://github.com/reduxjs/react-redux/issues' },
+85 silly resolved     main: './lib/index.js',
+85 silly resolved     unpkg: 'dist/react-redux.js',
+85 silly resolved     module: 'es/index.js',
+85 silly resolved     files: [ 'dist', 'lib', 'src', 'es' ],
+85 silly resolved     scripts:
+85 silly resolved      { 'build:commonjs': 'cross-env BABEL_ENV=commonjs babel src --out-dir lib',
+85 silly resolved        'build:es': 'babel src --out-dir es',
+85 silly resolved        'build:umd': 'cross-env NODE_ENV=development rollup -c -o dist/react-redux.js',
+85 silly resolved        'build:umd:min': 'cross-env NODE_ENV=production rollup -c -o dist/react-redux.min.js',
+85 silly resolved        build: 'npm run build:commonjs && npm run build:es && npm run build:umd && npm run build:umd:min',
+85 silly resolved        clean: 'rimraf lib dist es coverage',
+85 silly resolved        format: 'prettier --write "{src,test}/**/*.{js,ts}" index.d.ts "docs/**/*.md"',
+85 silly resolved        lint: 'eslint src test/utils test/components test/hooks',
+85 silly resolved        prepare: 'npm run clean && npm run build',
+85 silly resolved        pretest: 'npm run lint',
+85 silly resolved        test: 'jest',
+85 silly resolved        coverage: 'codecov' },
+85 silly resolved     peerDependencies: { react: '^16.8.3', redux: '^2.0.0 || ^3.0.0 || ^4.0.0-0' },
+85 silly resolved     dependencies:
+85 silly resolved      { '@babel/runtime': '^7.4.5',
+85 silly resolved        'hoist-non-react-statics': '^3.3.0',
+85 silly resolved        invariant: '^2.2.4',
+85 silly resolved        'loose-envify': '^1.4.0',
+85 silly resolved        'prop-types': '^15.7.2',
+85 silly resolved        'react-is': '^16.8.6' },
+85 silly resolved     devDependencies:
+85 silly resolved      { '@babel/cli': '^7.4.4',
+85 silly resolved        '@babel/core': '^7.4.5',
+85 silly resolved        '@babel/plugin-proposal-decorators': '^7.4.4',
+85 silly resolved        '@babel/plugin-proposal-object-rest-spread': '^7.4.4',
+85 silly resolved        '@babel/plugin-transform-react-display-name': '^7.2.0',
+85 silly resolved        '@babel/plugin-transform-react-jsx': '^7.3.0',
+85 silly resolved        '@babel/plugin-transform-runtime': '^7.4.4',
+85 silly resolved        '@babel/preset-env': '^7.4.5',
+85 silly resolved        '@testing-library/react': '^8.0.1',
+85 silly resolved        'babel-eslint': '^10.0.1',
+85 silly resolved        'babel-jest': '^24.8.0',
+85 silly resolved        codecov: '^3.5.0',
+85 silly resolved        'create-react-class': '^15.6.3',
+85 silly resolved        'cross-env': '^5.2.0',
+85 silly resolved        es3ify: '^0.2.0',
+85 silly resolved        eslint: '^5.16.0',
+85 silly resolved        'eslint-config-prettier': '^4.3.0',
+85 silly resolved        'eslint-plugin-import': '^2.17.3',
+85 silly resolved        'eslint-plugin-prettier': '^3.1.0',
+85 silly resolved        'eslint-plugin-react': '^7.13.0',
+85 silly resolved        glob: '^7.1.4',
+85 silly resolved        jest: '^24.8.0',
+85 silly resolved        'jest-dom': '^3.5.0',
+85 silly resolved        prettier: '^1.18.2',
+85 silly resolved        react: '^16.8.6',
+85 silly resolved        'react-dom': '^16.8.6',
+85 silly resolved        'react-hooks-testing-library': '^0.5.1',
+85 silly resolved        'react-test-renderer': '^16.8.6',
+85 silly resolved        redux: '^4.0.1',
+85 silly resolved        rimraf: '^2.6.3',
+85 silly resolved        rollup: '^1.14.6',
+85 silly resolved        'rollup-plugin-babel': '^4.3.2',
+85 silly resolved        'rollup-plugin-commonjs': '^10.0.0',
+85 silly resolved        'rollup-plugin-node-resolve': '^5.0.1',
+85 silly resolved        'rollup-plugin-replace': '^2.2.0',
+85 silly resolved        'rollup-plugin-terser': '^5.0.0' },
+85 silly resolved     browserify: { transform: [Object] },
+85 silly resolved     jest:
+85 silly resolved      { coverageDirectory: './coverage/',
+85 silly resolved        collectCoverage: true,
+85 silly resolved        testURL: 'http://localhost' },
+85 silly resolved     readme: 'React Redux\n=========================\n\nOfficial React bindings for [Redux](https://github.com/reduxjs/redux).  \nPerformant and flexible.\n\n[![build status](https://img.shields.io/travis/reduxjs/react-redux/master.svg?style=flat-square)](https://travis-ci.org/reduxjs/react-redux) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\n[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)\n[![redux channel on discord](https://img.shields.io/badge/discord-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)\n\n\n## Installation\n\nReact Redux requires **React 16.8.3 or later.**\n\n```\nnpm install --save react-redux\n```\n\nThis assumes that you’re using [npm](http://npmjs.com/) package manager \nwith a module bundler like [Webpack](https://webpack.js.org/) or \n[Browserify](http://browserify.org/) to consume [CommonJS \nmodules](https://webpack.js.org/api/module-methods/#commonjs).\n\nIf you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactRedux` available as a global object, you can grab a pre-built version from [cdnjs](https://cdnjs.com/libraries/react-redux). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on [npm](http://npmjs.com/).\n\n## React Native\n\nAs of React Native 0.18, React Redux 5.x should work with React Native. If you have any issues with React Redux 5.x on React Native, run `npm ls react` and make sure you don’t have a duplicate React installation in your `node_modules`. We recommend that you use `npm@3.x` which is better at avoiding these kinds of issues.\n\n\n## Documentation\n\nThe React Redux docs are now published at **https://react-redux.js.org** .\n\nWe\'re currently expanding and rewriting our docs content - check back soon for more updates!\n\n## How Does It Work?\n\nWe do a deep dive on how React Redux works in [this readthesource episode](https://www.youtube.com/watch?v=VJ38wSFbM3A).  \n\nAlso, the post [The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/) \nexplains what it does, how it works, and how the API and implementation have evolved over time.\n\nEnjoy!\n\n## License\n\nMIT\n',
+85 silly resolved     readmeFilename: 'README.md',
+85 silly resolved     _id: 'react-redux@7.1.0',
+85 silly resolved     _from: 'react-redux@' } ]
+86 info install react-redux@7.1.0 into /home/ankit/js programs/goodworks
+87 info installOne react-redux@7.1.0
+88 info /home/ankit/js programs/goodworks/node_modules/react-redux unbuild
+89 info preuninstall react-redux@6.0.0
+90 info uninstall react-redux@6.0.0
+91 verbose true,/home/ankit/js programs/goodworks/node_modules,/home/ankit/js programs/goodworks/node_modules unbuild react-redux@6.0.0
+92 info postuninstall react-redux@6.0.0
+93 verbose tar unpack /home/ankit/.npm/react-redux/7.1.0/package.tgz
+94 silly lockFile eed99495-odworks-node-modules-react-redux tar:///home/ankit/js programs/goodworks/node_modules/react-redux
+95 verbose lock tar:///home/ankit/js programs/goodworks/node_modules/react-redux /home/ankit/.npm/eed99495-odworks-node-modules-react-redux.lock
+96 silly lockFile 841142e9-pm-react-redux-7-1-0-package-tgz tar:///home/ankit/.npm/react-redux/7.1.0/package.tgz
+97 verbose lock tar:///home/ankit/.npm/react-redux/7.1.0/package.tgz /home/ankit/.npm/841142e9-pm-react-redux-7-1-0-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry dist/react-redux.js
+102 silly gunzTarPerm extractEntry dist/react-redux.min.js
+103 silly gunzTarPerm extractEntry es/alternate-renderers.js
+104 silly gunzTarPerm extractEntry es/index.js
+105 silly gunzTarPerm extractEntry es/components/Context.js
+106 silly gunzTarPerm extractEntry es/components/Provider.js
+107 silly gunzTarPerm extractEntry es/components/connectAdvanced.js
+108 silly gunzTarPerm extractEntry es/connect/connect.js
+109 silly gunzTarPerm extractEntry es/connect/mapDispatchToProps.js
+110 silly gunzTarPerm extractEntry es/connect/mapStateToProps.js
+111 silly gunzTarPerm extractEntry es/connect/mergeProps.js
+112 silly gunzTarPerm extractEntry es/connect/selectorFactory.js
+113 silly gunzTarPerm extractEntry es/connect/verifySubselectors.js
+114 silly gunzTarPerm extractEntry es/connect/wrapMapToProps.js
+115 silly gunzTarPerm extractEntry es/hooks/useDispatch.js
+116 silly gunzTarPerm extractEntry es/hooks/useReduxContext.js
+117 silly gunzTarPerm extractEntry es/hooks/useSelector.js
+118 silly gunzTarPerm extractEntry es/hooks/useStore.js
+119 silly gunzTarPerm extractEntry es/utils/Subscription.js
+120 silly gunzTarPerm extractEntry es/utils/batch.js
+121 silly gunzTarPerm extractEntry es/utils/isPlainObject.js
+122 silly gunzTarPerm extractEntry es/utils/reactBatchedUpdates.js
+123 silly gunzTarPerm extractEntry es/utils/reactBatchedUpdates.native.js
+124 silly gunzTarPerm extractEntry es/utils/shallowEqual.js
+125 silly gunzTarPerm extractEntry es/utils/verifyPlainObject.js
+126 silly gunzTarPerm extractEntry es/utils/warning.js
+127 silly gunzTarPerm extractEntry es/utils/wrapActionCreators.js
+128 silly gunzTarPerm extractEntry lib/alternate-renderers.js
+129 silly gunzTarPerm extractEntry lib/index.js
+130 silly gunzTarPerm extractEntry lib/components/Context.js
+131 silly gunzTarPerm extractEntry lib/components/Provider.js
+132 silly gunzTarPerm extractEntry lib/components/connectAdvanced.js
+133 silly gunzTarPerm extractEntry lib/connect/connect.js
+134 silly gunzTarPerm extractEntry lib/connect/mapDispatchToProps.js
+135 silly gunzTarPerm extractEntry lib/connect/mapStateToProps.js
+136 silly gunzTarPerm extractEntry lib/connect/mergeProps.js
+137 silly gunzTarPerm extractEntry lib/connect/selectorFactory.js
+138 silly gunzTarPerm extractEntry lib/connect/verifySubselectors.js
+139 silly gunzTarPerm extractEntry lib/connect/wrapMapToProps.js
+140 silly gunzTarPerm extractEntry lib/hooks/useDispatch.js
+141 silly gunzTarPerm extractEntry lib/hooks/useReduxContext.js
+142 silly gunzTarPerm extractEntry lib/hooks/useSelector.js
+143 silly gunzTarPerm extractEntry lib/hooks/useStore.js
+144 silly gunzTarPerm extractEntry lib/utils/Subscription.js
+145 silly gunzTarPerm extractEntry lib/utils/batch.js
+146 silly gunzTarPerm extractEntry lib/utils/isPlainObject.js
+147 silly gunzTarPerm extractEntry lib/utils/reactBatchedUpdates.js
+148 silly gunzTarPerm extractEntry lib/utils/reactBatchedUpdates.native.js
+149 silly gunzTarPerm extractEntry lib/utils/shallowEqual.js
+150 silly gunzTarPerm extractEntry lib/utils/verifyPlainObject.js
+151 silly gunzTarPerm extractEntry lib/utils/warning.js
+152 silly gunzTarPerm extractEntry lib/utils/wrapActionCreators.js
+153 silly gunzTarPerm extractEntry src/alternate-renderers.js
+154 silly gunzTarPerm extractEntry src/index.js
+155 silly gunzTarPerm extractEntry src/components/Context.js
+156 silly gunzTarPerm extractEntry src/components/Provider.js
+157 silly gunzTarPerm extractEntry src/components/connectAdvanced.js
+158 silly gunzTarPerm extractEntry src/connect/connect.js
+159 silly gunzTarPerm extractEntry src/connect/mapDispatchToProps.js
+160 silly gunzTarPerm extractEntry src/connect/mapStateToProps.js
+161 silly gunzTarPerm extractEntry src/connect/mergeProps.js
+162 silly gunzTarPerm extractEntry src/connect/selectorFactory.js
+163 silly gunzTarPerm extractEntry src/connect/verifySubselectors.js
+164 silly gunzTarPerm extractEntry src/connect/wrapMapToProps.js
+165 silly gunzTarPerm extractEntry src/hooks/useDispatch.js
+166 silly gunzTarPerm extractEntry src/hooks/useReduxContext.js
+167 silly gunzTarPerm extractEntry src/hooks/useSelector.js
+168 silly gunzTarPerm extractEntry src/hooks/useStore.js
+169 silly gunzTarPerm extractEntry src/utils/Subscription.js
+170 silly gunzTarPerm extractEntry src/utils/batch.js
+171 silly gunzTarPerm extractEntry src/utils/isPlainObject.js
+172 silly gunzTarPerm extractEntry src/utils/reactBatchedUpdates.js
+173 silly gunzTarPerm extractEntry src/utils/reactBatchedUpdates.native.js
+174 silly gunzTarPerm extractEntry src/utils/shallowEqual.js
+175 silly gunzTarPerm extractEntry src/utils/verifyPlainObject.js
+176 silly gunzTarPerm extractEntry src/utils/warning.js
+177 silly gunzTarPerm extractEntry src/utils/wrapActionCreators.js
+178 silly lockFile eed99495-odworks-node-modules-react-redux tar:///home/ankit/js programs/goodworks/node_modules/react-redux
+179 silly lockFile eed99495-odworks-node-modules-react-redux tar:///home/ankit/js programs/goodworks/node_modules/react-redux
+180 silly lockFile 841142e9-pm-react-redux-7-1-0-package-tgz tar:///home/ankit/.npm/react-redux/7.1.0/package.tgz
+181 silly lockFile 841142e9-pm-react-redux-7-1-0-package-tgz tar:///home/ankit/.npm/react-redux/7.1.0/package.tgz
+182 info preinstall react-redux@7.1.0
+183 verbose readDependencies using package.json deps
+184 verbose readDependencies using package.json deps
+185 verbose cache add [ '@babel/runtime@^7.4.5', null ]
+186 verbose cache add name=undefined spec="@babel/runtime@^7.4.5" args=["@babel/runtime@^7.4.5",null]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: '@babel/runtime@^7.4.5',
+187 verbose parsed url   path: '@babel/runtime@^7.4.5',
+187 verbose parsed url   href: '@babel/runtime@^7.4.5' }
+188 verbose cache add name="" spec="babel/runtime@^7.4.5" args=["","babel/runtime@^7.4.5"]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'babel/runtime@^7.4.5',
+189 verbose parsed url   path: 'babel/runtime@^7.4.5',
+189 verbose parsed url   href: 'babel/runtime@^7.4.5' }
+190 verbose cache add name="babel/runtime" spec="^7.4.5" args=["babel/runtime","^7.4.5"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '^7.4.5',
+191 verbose parsed url   path: '^7.4.5',
+191 verbose parsed url   href: '^7.4.5' }
+192 verbose addNamed [ 'babel/runtime', '^7.4.5' ]
+193 verbose addNamed [ null, '>=7.4.5-0 <8.0.0-0' ]
+194 silly lockFile d5cb1e89-babel-runtime-7-4-5 babel/runtime@^7.4.5
+195 verbose lock babel/runtime@^7.4.5 /home/ankit/.npm/d5cb1e89-babel-runtime-7-4-5.lock
+196 verbose cache add [ 'hoist-non-react-statics@^3.3.0', null ]
+197 verbose cache add name=undefined spec="hoist-non-react-statics@^3.3.0" args=["hoist-non-react-statics@^3.3.0",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'hoist-non-react-statics@^3.3.0',
+198 verbose parsed url   path: 'hoist-non-react-statics@^3.3.0',
+198 verbose parsed url   href: 'hoist-non-react-statics@^3.3.0' }
+199 verbose cache add name="hoist-non-react-statics" spec="^3.3.0" args=["hoist-non-react-statics","^3.3.0"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '^3.3.0',
+200 verbose parsed url   path: '^3.3.0',
+200 verbose parsed url   href: '^3.3.0' }
+201 verbose addNamed [ 'hoist-non-react-statics', '^3.3.0' ]
+202 verbose addNamed [ null, '>=3.3.0-0 <4.0.0-0' ]
+203 silly lockFile 70df4113-hoist-non-react-statics-3-3-0 hoist-non-react-statics@^3.3.0
+204 verbose lock hoist-non-react-statics@^3.3.0 /home/ankit/.npm/70df4113-hoist-non-react-statics-3-3-0.lock
+205 silly addNameRange { name: 'hoist-non-react-statics',
+205 silly addNameRange   range: '>=3.3.0-0 <4.0.0-0',
+205 silly addNameRange   hasData: false }
+206 silly addNameRange { name: 'babel/runtime',
+206 silly addNameRange   range: '>=7.4.5-0 <8.0.0-0',
+206 silly addNameRange   hasData: false }
+207 verbose url raw hoist-non-react-statics
+208 verbose url resolving [ 'https://registry.npmjs.org/', './hoist-non-react-statics' ]
+209 verbose url resolved https://registry.npmjs.org/hoist-non-react-statics
+210 info trying registry request attempt 1 at 23:20:01
+211 verbose etag "c6a42e6aa60f0c82fcd5897c53ec0326"
+212 http GET https://registry.npmjs.org/hoist-non-react-statics
+213 verbose url raw babel/runtime
+214 verbose url resolving [ 'https://registry.npmjs.org/', './babel/runtime' ]
+215 verbose url resolved https://registry.npmjs.org/babel/runtime
+216 info trying registry request attempt 1 at 23:20:01
+217 http GET https://registry.npmjs.org/babel/runtime
+218 http 405 https://registry.npmjs.org/babel/runtime
+219 silly registry.get cb [ 405,
+219 silly registry.get   { date: 'Sat, 29 Jun 2019 17:50:02 GMT',
+219 silly registry.get     'content-type': 'application/json',
+219 silly registry.get     'content-length': '63',
+219 silly registry.get     connection: 'keep-alive',
+219 silly registry.get     'set-cookie': [ '__cfduid=d87967a9dc30b8976491ed63e83c096281561830602; expires=Sun, 28-Jun-20 17:50:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+219 silly registry.get     'cf-ray': '4ee9bd90dd9daa18-SIN',
+219 silly registry.get     allow: 'PUT',
+219 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+219 silly registry.get     server: 'cloudflare' } ]
+220 silly addNameRange number 2 { name: 'babel/runtime',
+220 silly addNameRange   range: '>=7.4.5-0 <8.0.0-0',
+220 silly addNameRange   hasData: true }
+221 silly addNameRange versions [ undefined, [] ]
+222 error TypeError: Cannot read property 'latest' of undefined
+222 error     at next (/usr/share/npm/lib/cache.js:687:35)
+222 error     at /usr/share/npm/lib/cache.js:675:5
+222 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+222 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+222 error     at Object.oncomplete (fs.js:107:15)
+223 error If you need help, you may report this log at:
+223 error     <http://github.com/isaacs/npm/issues>
+223 error or email it to:
+223 error     <npm-@googlegroups.com>
+224 error System Linux 3.13.0-38-generic
+225 error command "/usr/bin/nodejs" "/usr/bin/npm" "i" "--save" "react-redux"
+226 error cwd /home/ankit/js programs/goodworks
+227 error node -v v0.10.25
+228 error npm -v 1.3.10
+229 error type non_object_property_load
+230 verbose exit [ 1, true ]

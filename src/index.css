@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#root {
+    margin-top: 50px;
+}
+
 .white {
     color: black;
 }
